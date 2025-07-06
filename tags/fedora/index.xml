@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fedora on Ignas Paškevičius</title>
+    <link>https://igns.dev/tags/fedora/</link>
+    <description>Recent content in Fedora on Ignas Paškevičius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ignas@igns.dev (Ignas Paškevičius)</managingEditor>
+    <webMaster>ignas@igns.dev (Ignas Paškevičius)</webMaster>
+    <copyright>© 2025 Ignas Paškevičius</copyright>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://igns.dev/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to install GrapheneOS in Fedora Linux</title>
+      <link>https://igns.dev/posts/graphene-install-fedora-linux/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <author>ignas@igns.dev (Ignas Paškevičius)</author>
+      <guid>https://igns.dev/posts/graphene-install-fedora-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://igns.dev/posts/graphene-install-fedora-linux/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
