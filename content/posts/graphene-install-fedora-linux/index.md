@@ -5,6 +5,7 @@ draft: false
 description: "example description"
 tags: ["fedora", "android", "grapheneos"]
 showTableOfContents: true
+showComments: true
 ---
 ## Introduction
 Right of the bat, there is no official install method for Fedora Workstation as there is for Ubuntu or Debian. But it's possible, and it is not difficult to do. In this guide I will show you how to install [GrapheneOS](https://grapheneos.org) in Fedora Linux environment.

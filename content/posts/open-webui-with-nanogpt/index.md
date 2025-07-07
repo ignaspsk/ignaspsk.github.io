@@ -5,6 +5,7 @@ draft: false
 description: "example description"
 tags: ["ai", "nanogpt", "openwebui", "tsdproxy", "llm", "tailscale"]
 showTableOfContents: true
+showComments: true
 ---
 ##  Introduction
 Open WebUI is a popular selfhosted AI chat interface, but it's just a frontend, you need some kind of backend that would run the AI models. You could selfhost them with Ollama, but not everyone has powerful hardware, let alone pay for expensive VPS. This is where [NanoGPT](https://nano-gpt.com/) comes in. It's a pay-per-prompt AI access provider, which also provides a centralized API access for any model you could think of. Thereby eliminating the need to pay multiple companies for their API. And they accept crypto payments!

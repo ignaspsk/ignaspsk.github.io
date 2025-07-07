@@ -5,6 +5,7 @@ draft: false
 description: "example description"
 tags: ["coral", "ubuntu"]
 showTableOfContents: true
+showComments: true
 ---
 ## Introduction
 If you followed the [official coral documentation](https://coral.ai/docs/m2/get-started), you will get error when installing the `gasket-dkms` package. That's because it's actually outdated, as well as the instructions of adding their repo to apt.

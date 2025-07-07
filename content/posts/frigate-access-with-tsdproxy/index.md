@@ -5,6 +5,7 @@ draft: false
 description: "example description"
 tags: ["frigate", "tailscale", "tsdproxy"]
 showTableOfContents: true
+showComments: true
 ---
 ## Introduction
 In case you wanted to have remote access to your docker services, there are [tailscale sidecars](https://tailscale.com/blog/docker-tailscale-guide) for that, however it has a drawback - you need a new sidecar for each new service. If only there was a Tailscale Docker Proxy that would manage multiple docker services without the need of dedicated sidecars...
