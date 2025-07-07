@@ -22,7 +22,7 @@ defaultBackgroundImage = "background.svg"
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 defaultFeaturedImage = "."
-article.showComments = true
+showComments = true
 
 [header]
 layout = "fixed-fill-blur"
