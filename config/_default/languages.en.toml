@@ -1,0 +1,30 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ignas Paškevičius"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = ""
+
+  [params.author]
+  name = "Ignas Paškevičius"
+  email = "ignas@igns.dev"
+  imageQuality = 96
+  headline = "I'm only human"
+  bio = "A little bit about you"
+
+    [[params.author.links]]
+    email = "mailto:ignas@igns.dev"
+
+    [[params.author.links]]
+    github = "https://github.com/ignaspsk"
+
+["params.author"]
+name = "Ignas Paškevičius"
+headline = "High school student who really likes making awesome stuff with computers"
+bio = "High school student who really likes making awesome stuff with computers"
