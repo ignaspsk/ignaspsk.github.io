@@ -71,7 +71,7 @@ showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
 heroStyle = "background"
-showComments = true
+article.showComments = true
 
 [list]
 showHero = true
