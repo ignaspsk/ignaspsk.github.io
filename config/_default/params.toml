@@ -22,7 +22,6 @@ defaultBackgroundImage = "background.svg"
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 defaultFeaturedImage = "."
-showComments = true
 
 [header]
 layout = "fixed-fill-blur"
@@ -72,6 +71,7 @@ showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
 heroStyle = "background"
+showComments = true
 
 [list]
 showHero = true
