@@ -1,20 +1,20 @@
 # .github/workflows/gh-pages.yml
-
 name: GitHub Pages
-
-permissions:
-  contents: write
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-24.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true  # Prevent concurrent deployment conflicts
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,16 +26,18 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true  # REQUIRED for Blowfish theme
 
       - name: Build
         run: |
           hugo --minify
+          # Create .nojekyll to disable Jekyll processing
           touch public/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
+          force_orphan: true  # Resolve branch divergence errors
