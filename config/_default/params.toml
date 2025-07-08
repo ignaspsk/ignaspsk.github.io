@@ -113,3 +113,8 @@ groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 heroStyle = "background"
+
+[csp]
+scriptSrc = "'self' https://giscus.app 'unsafe-eval'"
+styleSrc = "'self' https://giscus.app 'unsafe-inline'"
+frameSrc = "'self' https://giscus.app"

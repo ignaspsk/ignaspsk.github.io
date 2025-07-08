@@ -1,0 +1,7 @@
+{{ with site.Params.csp }}
+<meta http-equiv="Content-Security-Policy" content="
+  script-src {{ .scriptSrc }};
+  style-src {{ .styleSrc }};
+  frame-src {{ .frameSrc }};
+">
+{{ end }}
