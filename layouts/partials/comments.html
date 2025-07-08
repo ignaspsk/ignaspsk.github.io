@@ -1,15 +1,20 @@
-<script src="https://giscus.app/client.js"
-        data-repo="ignaspsk/ignaspsk.github.io"
-        data-repo-id="R_kgDOPH3Z8g"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOPH3Z8s4Csmav"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark_protanopia"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
+<script nonce="{{ .Site.Params.cspNonce }}">
+  window.giscusConfig = {
+    repo: "ignaspsk/ignaspsk.github.io",
+    repoId: "R_kgDOPH3Z8g",
+    category: "Announcements",
+    categoryId: "DIC_kwDOPH3Z8s4Csmav",
+    mapping: "pathname",
+    strict: "1",
+    reactionsEnabled: "1",
+    emitMetadata: "0",
+    inputPosition: "bottom",
+    theme: "dark_protanopia",
+    lang: "en",
+  };
 </script>
+<script src="https://giscus.app/client.js" 
+        data-config="giscusConfig"
+        crossorigin="anonymous"
+        async
+        nonce="{{ .Site.Params.cspNonce }}"></script>
