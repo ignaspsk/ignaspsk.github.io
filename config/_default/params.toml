@@ -115,6 +115,6 @@ cardViewScreenWidth = false
 heroStyle = "background"
 
 [umamianalytics]
-  websiteid = "c07a41ec-f092-4250-ae17-2e01b32a3b7d"
-  dataDomains = "igns.dev"
-  enableTrackEvent = false
+websiteid = "c07a41ec-f092-4250-ae17-2e01b32a3b7d"
+dataDomains = "igns.dev"
+enableTrackEvent = false
