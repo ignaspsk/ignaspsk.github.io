@@ -23,3 +23,9 @@ description = ""
 
     [[params.author.links]]
     github = "https://github.com/ignaspsk"
+    
+    [[params.author.links]]
+    signal = "https://signal.me/#eu/s002U48Ts2o28Vok5Qpdy8J0Cq53UJOKyuzwQGzp_WUqtE0ygdVMuLWN1SZaEfo4"
+    
+    [[params.author.links]]
+    rss = "https://igns.dev/index.xml"
