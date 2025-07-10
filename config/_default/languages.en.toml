@@ -9,17 +9,17 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = ""
+description = "High school student who really likes making awesome stuff with computers"
 
   [params.author]
   name = "Ignas Paškevičius"
-  email = "ignas@igns.dev"
+  email = "ignas@ignaspsk.dev"
   imageQuality = 96
   headline = "High school student who really likes making awesome stuff with computers"
   bio = "High school student who really likes making awesome stuff with computers"
 
     [[params.author.links]]
-    email = "mailto:ignas@igns.dev"
+    email = "mailto:ignas@ignaspsk.dev"
 
     [[params.author.links]]
     github = "https://github.com/ignaspsk"
@@ -28,4 +28,4 @@ description = ""
     signal = "https://signal.me/#eu/s002U48Ts2o28Vok5Qpdy8J0Cq53UJOKyuzwQGzp_WUqtE0ygdVMuLWN1SZaEfo4"
     
     [[params.author.links]]
-    rss = "https://igns.dev/index.xml"
+    rss = "https://ignaspsk.dev/index.xml"
