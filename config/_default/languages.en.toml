@@ -9,14 +9,14 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "High school student who really likes making awesome stuff with computers"
+description = "Ever-curious, lifelong student who loves learning and exploring new things."
 
   [params.author]
   name = "Ignas Paškevičius"
-  email = "ignas@ignaspsk.dev"
+  email = "ignas[at]ignaspsk.dev"
   imageQuality = 96
-  headline = "High school student who really likes making awesome stuff with computers"
-  bio = "High school student who really likes making awesome stuff with computers"
+  headline = "Ever-curious, lifelong student who loves learning and exploring new things."
+  bio = "Ever-curious, lifelong student who loves learning and exploring new things."
 
     [[params.author.links]]
     email = "mailto:ignas@ignaspsk.dev"
