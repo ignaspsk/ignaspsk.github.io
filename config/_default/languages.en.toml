@@ -9,14 +9,14 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "Ever-curious, lifelong student who loves learning and exploring new things."
+description = "Ignas Paškevičius personal website"
 
   [params.author]
   name = "Ignas Paškevičius"
   email = "ignas[at]ignaspsk.dev"
   imageQuality = 96
-  headline = "Ever-curious, lifelong student who loves learning and exploring new things."
-  bio = "Ever-curious, lifelong student who loves learning and exploring new things."
+  headline = "Ever-curious student and a nerd"
+  bio = "Ever-curious student and a nerd"
 
     [[params.author.links]]
     email = "mailto:ignas@ignaspsk.dev"
@@ -26,6 +26,12 @@ description = "Ever-curious, lifelong student who loves learning and exploring n
     
     [[params.author.links]]
     signal = "https://signal.me/#eu/s002U48Ts2o28Vok5Qpdy8J0Cq53UJOKyuzwQGzp_WUqtE0ygdVMuLWN1SZaEfo4"
+    
+    [[params.author.links]]
+    mastodon = "https://mastodon.social/@ignaspsk"
+    
+    [[params.author.links]]
+    mug-hot = "https://buymeacoffee.com/ignaspsk"
     
     [[params.author.links]]
     rss = "https://ignaspsk.dev/index.xml"

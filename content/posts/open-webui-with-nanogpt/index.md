@@ -45,6 +45,7 @@ NanoGPT is a paid service, but they accept deposits as little as 0.10$, whether 
 2. In you Open WebUI instance, Go to Admin Panel, click "Settings" tab, then click "Connections" menu and enable OpenAI API Connections. Click the + sign to create a connection. Then you are presented this window:
 
 ![Menu.png](menu.png)
+
 3. In the URL field, input `https://nano-gpt.com/api/v1`
 4. In the Key field, paste your API key.
 5. Then to add a model, see [API](https://nano-gpt.com/api) page again and choose what model you want to use. Let's say you want to use Deepseek R1, so you go and find the appropriate model ID for it. That would be `deepseek-r1-nano`. After that don't forget click the + sign as well as the Save button.
